@@ -1,0 +1,22 @@
+.topmenu {
+    background-image: url(/src/images/backgroundimagetop.jpg);
+    transform: scaleX(-1);
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    transform: scaleX(-1);
+}
+
+.contenttop {
+    transform: scaleX(-1);
+}
+.navbar {
+    word-spacing: 5px;
+    color: black;
+}
