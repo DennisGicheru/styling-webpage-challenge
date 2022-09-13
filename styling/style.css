@@ -1,12 +1,12 @@
 .topmenu {
-    background-image: url(/src/images/backgroundimagetop.jpg);
+    background-image: url(/styling-webpage-challenge/src/images/backgroundimagetop.jpg);
     transform: scaleX(-1);
 }
 
 .topbar {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
@@ -19,4 +19,32 @@
 .navbar {
     word-spacing: 5px;
     color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#list1 ul li:before {
+    content: '✓';
+    color: rgb(245 158 11 );
+    font-weight: bold;
+    margin-left: -1rem;
+    margin-right: 5px;
+  }
+
+  .banner {
+    background-image: url(/styling-webpage-challenge/src/images/bannerimage.jpg);
+    padding-top: 0;
+  }
+
+  .banner img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+.buildingcompany {
+    background-image: url(/styling-webpage-challenge/src/images/buildingcompany-bg.jpg);
+    
 }

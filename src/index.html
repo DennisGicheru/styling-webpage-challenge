@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styling Challenge</title>
-    <link href="/styling/style.css" rel="stylesheet">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/styling-webpage-challenge/styling/style.css" rel="stylesheet">
+    <link href="/styling-webpage-challenge/dist/output.css" rel="stylesheet">
 </head>
 <body>
     <div class="topmenu">
-        <div class="topbar">
-            <input placeholder = "search" class= "mt-2"/>
-            <nav class="navbar flex flex-row px-2 text-white">
+        <div class="topbar flex flex-col md:flex-row justify-between">
+            <input placeholder = "search" class= "mt-2 w-20 md:w-1/3"/>
+            <nav class="navbar flex flex-col md:flex-row px-2 text-white">
                 <a href="" class="hover:text-amber-500 mx-3">HOME</a>
                 <a href="" class="mx-3">ABOUT</a>
                 <a href="" class="mx-3">CONTACT</a>
@@ -20,22 +20,22 @@
         </div>
 
         <div class="contenttop ">
-            <div class="w-2/5 mt-20 mb-20"><h1 class="text-amber-500 text-6xl font-bold ml-20">Thoughtful, collaborative and insightful</h1></div>
+            <div class="md:w-2/5 mt-20 mb-20"><h1 class="text-amber-500 text-4xl font-bold ml-20 md:text-6xl">Thoughtful, collaborative and insightful</h1></div>
             <div class="flex flex-col md:flex-row justify-center text-white">
                 <div class="bg-gray-900 p-10 bg-opacity-50 m-10">
-                    <img class="object-right-top w-10 fill-amber-500" src="/src/icons/building-solid.svg" alt="">
+                    <img class="object-right-top w-10 fill-amber-500" src="/styling-webpage-challenge/src/icons/building-solid.svg" alt="">
                     <h4 class="text-xl pb-5">BUILDING</h4>
                     <p>Excepteur sint occaecat</p>
                     <button class="mx-auto m-4 px-5 p-2 border-2 border-amber-500">MORE</button>
                 </div>
                 <div class="bg-gray-900 p-10 bg-opacity-50 m-10">
-                    <img class="object-right-top w-10 fill-amber-500" src="/src/icons/industry-solid.svg" alt="">
+                    <img class="object-right-top w-10 fill-amber-500" src="/styling-webpage-challenge/src/icons/industry-solid.svg" alt="">
                     <h4 class="text-xl pb-5">INDUSTRIAL</h4>
                     <p>Excepteur sint occaecat</p>
                     <button class="mx-auto m-4 px-5 p-2 border-2 border-amber-500">MORE</button>
                 </div>
                 <div class="bg-gray-900 p-10 bg-opacity-50 m-10">
-                    <img class="object-right-top w-10 fill-amber-500" src="/src/icons/seedling-solid.svg" alt="">
+                    <img class="object-right-top w-10 fill-amber-500" src="/styling-webpage-challenge/src/icons/seedling-solid.svg" alt="">
                     <h4 class="text-xl pb-5">FUTURE</h4>
                     <p>Excepteur sint occaecat</p>
                     <button class="mx-auto m-4 px-5 p-2 border-2 border-amber-500">MORE</button>
@@ -44,29 +44,29 @@
         </div>
     </div>
     <div class="flex flex-col md:flex-row pb-10">
-        <div class="p-10 px-10"><img src="/src/images/engineer-Top.jpg"></div>
+        <div class="p-10 px-10"><img src="/styling-webpage-challenge/src/images/engineer-Top.jpg"></div>
         <div class="p-10">
             <h3 class="font-bold text-2xl">Creates Unique Design and Construction According to Clients' Needs</h3>
 
             <div class="mt-10 mb-30">
                 <p>We are a diversified Construction company, made up of teams of people who are proven in their industries. All working to design, build, transport, operate, and maintain projects all over the USA. But we believe that projects are about more than concrete and steel. We value our clients and their opinion and try to meet expectations.</p>
             </div>
-            <div class="bg-gray-200 p-10 mx-0">
-                <p>As a leader in the design and construction of advanced technology facilities, our architectural solutions are as a result of a collaborative process that empowers our multidisciplinary teams to share knowledge, leverage new technology and create innovative design solutions.</p>
-                <button class="bg-amber-500 px-10 m-10 mx-auto">MORE</button>
+            <div class="bg-gray-200 p-10 flex flex-col items-center">
+                <p class="flex justify-center">As a leader in the design and construction of advanced technology facilities, our architectural solutions are as a result of a collaborative process that empowers our multidisciplinary teams to share knowledge, leverage new technology and create innovative design solutions.</p>
+                <button class="bg-amber-500 px-10 pt-5 py-3 m-5 text-white">MORE</button>
             </div>
         </div>
     </div>
-    <div class="flex flex-col md:flex-row">
-        <div class="bg-gray-300 w-1/2 p-10">
+    <div class="flex flex-col md:flex-row bg-gray-200 pb-30">
+        <div class="w-4/5 md:w-1/2 p-10">
             <h4 class="text-black mb-4 font-bold m-5">SURE, WE'VE BEEN AROUND THE BLOCK. WE PROBABLY WORKED WITH THE PEOPLE WHO BUILT IT.</h4>
             <p class="m-5">Dui ut ornare lectus sit. Tindicut lobortis feugiat vivamus at augue eget arcu. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Solades neque solades ut etiam sit amet nisl. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Luctus venenatis suscipit tellus mauris a.</p>
-            <img class="m-5 object-scale-down" src="/src/images/two engineers.jpg">
+            <img class="m-5 object-scale-down" src="/styling-webpage-challenge/src/images/two engineers.jpg">
         </div>
-        <div class="bg-gray-300 w-1/2 p-10">
-            <img class="m-5 object-scale-down" src="/src/images/glassbuildingsunset.jpg"> 
+        <div id="list1" class="w-4/5 md:w-1/2 p-10">
+            <img class="m-5 object-scale-down" src="/styling-webpage-challenge/src/images/glassbuildingsunset.jpg"> 
             <h4 class="text-black mb-4 font-bold m-5">EARNING YOUR BUSINESS WITH EXPERIENCE, EXPERTISE, AND TRUST</h4>
-            <ul class="m-5">
+            <ul class="pl-10 list-none marker:text-amber-500">
                 <li>Component Production Equipment</li>
                 <li>Wall Panel Framing and Sheathing Equipment</li>
                 <li>Linear Saws</li>
@@ -79,53 +79,57 @@
             </ul>
         </div>
     </div>
-    <div>
-        <div><p>As a leader in the design and construction of advanced technology facilities, our architectural solutions are a result of a collaborative process that empowers our multidisciplinary teams to share knowledge, leverage new technology and create innovative design solutions</p></div>
-        <div>
-            <div>
-                <h4>ABOUT US</h4>
-                <p>Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
+    <div class="bg-gray-200 flex flex-col mb-0">
+        <p class="flex flex-col items-center pb-10 md:px-40">As a leader in the design and construction of advanced technology facilities, our architectural solutions are a result of a collaborative process that empowers our multidisciplinary teams to share knowledge, leverage new technology and create innovative design solutions</p>
+        <div class="flex flex-col md:grid grid-cols-3 grid-rows-3 gap-2 md:px-20 md:justify-center">
+            <div class="bg-amber-500 text-white flex flex-col">
+                <h4 class="text-2xl p-10">ABOUT US</h4>
+                <p class="px-10 pb-20">Mauris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
             </div>
-            <div><img src="" alt=""></div>
-            <div>
-                <h4>OUR STRATERGY</h4>
-                <p>auris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
+            <div><img class="max-h-fit" src="/styling-webpage-challenge/src/images/worker1.jpg" alt=""></div>
+            <div class="bg-amber-500 text-white flex flex-col">
+                <h4 class="text-2xl p-10">OUR STRATERGY</h4>
+                <p class="px-10 pb-20">auris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
             </div>
-            <div><img src="" alt=""></div>
-            <div>
-                <h4>OUR MISSION</h4>
-                <p>auris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
+            <div><img src="/styling-webpage-challenge/src/images/worker2.jpg" alt=""></div>
+            <div class="bg-white text-black flex flex-col">
+                <h4 class="text-2xl p-10">OUR MISSION</h4>
+                <p class="px-10 pb-20">auris pharetra et ultrices neque ornare aenean euismod. Habitant morbi tristique senectus et netus et malesuada fames. Ut faucibus pulvinar elementum interger enim neque volutpat</p>
             </div>
-            <div><img src="" alt=""></div>
+            <div><img src="/styling-webpage-challenge/src/images/worker3.jpg" alt=""></div>
         </div>
     </div>
 
-    <div>
-        <div>
-            <h5><em>6</em>SPECIALISTS</h5>
+    <div class="banner flex flex-col items-center md:flex-row justify-around text-amber-500 text-2xl p-20 font-bold">
+        <div class="p-5">
+            <img src="/styling-webpage-challenge/src/icons/user-solid.svg">
+            <h5><h2 class="font-bold text-7xl p-2 text-white">6</h2>SPECIALISTS</h5>
         </div>
-        <div>
-            <h5><em>16</em>HAPPY CLIENTS</h5>
+        <div class="p-5">
+            <img src="/styling-webpage-challenge/src/icons/user-group-solid.svg">
+            <h5><h2 class="font-bold text-7xl p-2 text-white">16</h2>HAPPY CLIENTS</h5>
         </div>
-        <div>
-            <h5><em>19</em>SUCCESSFUL CASES</h5>
+        <div class="p-5">
+            <img src="/styling-webpage-challenge/src/icons/briefcase-solid.svg">
+            <h5><h2 class="font-bold text-7xl p-2 text-white">19</h2>SUCCESSFUL CASES</h5>
         </div>
-        <div>
-            <h5><em>8</em>AWARDS</h5>
+        <div class="p-5">
+            <img src="/styling-webpage-challenge/src/icons/trophy-solid.svg">
+            <h5><h2 class="font-bold text-7xl p-2 text-white">8</h2>AWARDS</h5>
         </div>
     </div>
-    <div>
-        <nav>
-            <a href="">DESCRIPTION</a>
-            <a href="">SPECIFICATIONS</a>
-            <a href="">REVIEWS</a>
+    <div class="bg-white md:mx-20 mb-20">
+        <nav class="flex flex-col md:flex-row justify-around py-5 px-10 font-bold">
+            <a class="bg-amber-500 text-white w-full pl-0 md:py-3 text-center"  href="">DESCRIPTION</a>
+            <a class="w-full py-3 text-center" href="">SPECIFICATIONS</a>
+            <a class="w-full py-3 text-center" href="">REVIEWS</a>
         </nav>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h5>DESCRIPTION</h5>
-                <input placeholder="Sample text box. Click again or double click to start editing the text. Sample text. Click to select the text box. Click again or double click to start editing the text.">
-                <ul>
+        <div class="flex flex-col md:flex-row">
+            <div class="w-full pl-0 md:w-1/3 px-10 py-5"><img class="w-100 h-100" src="/styling-webpage-challenge/src/images/descriptionbarimg.jpg" alt=""></div>
+            <div class="w-2/3">
+                <h5 class="w-full py-3 text-center font-bold md:text-left">DESCRIPTION</h5>
+                <textarea class="w-full ml-5 md:w-2/3 h-20 break-all" placeholder="Sample text box. Click again or double click to start editing the text. Sample text. Click to select the text box. Click again or double click to start editing the text."></textarea>
+                <ul class="px-10 py-10 list-disc">
                     <li>excepteur sint occaecat cupidatat non</li>
                     <li>sunt in culpa qui officia deserunt</li>
                     <li>ut enim ad minim veniam</li>
@@ -137,44 +141,45 @@
             </div>
         </div>
     </div>
-    <div>
-        <h3>Responsive Pricing Table</h3>
-        <input placeholder="Sample text box. Click again or double click to start editing the text."/>
-        <div>
-            <div>
-                <h4>BASIC <em>$30</em></h4>
-                <ul>
+    <div class="w-full p-10 px-10">
+        <h3 class="text-4xl md:text-5xl md:text-center">Responsive Pricing Table</h3>
+        <textarea class="text-center md:w-full mt-10" placeholder="Sample text box. Click again or double click to start editing the text."></textarea>
+        <div class="flex flex-col md:flex-row justify-around">
+            <div class="bg-white mb-10 md:p-5 text-black text-center md:w-1/4">
+                <div class="bg-yellow-200 font-bold"><h4>BASIC <p class="text-7xl p-2">$30</p></h4></div>
+                <ul class="list-none p-5">
                     <li>1 full user</li>
                     <li>1000 Email Previews</li>
                     <li>5 contacts per client</li>
                     <li>5 coffee cups</li>
                 </ul>
-                <button>BUY NOW</button>
+                <button class="bg-yellow-200 text-center px-5 py-2">BUY NOW</button>
             </div>
-            <div>
-                <h4>STANDART <em>$60</em></h4>
-                <ul>
+            <div class="mb-10 md:p-5 justify-around text-center md:w-1/4">
+                <div class="bg-amber-500 text-center text-white font-bold"><h4>STANDART<p class="text-7xl p-2">$60</p></h4></div>
+                <ul class="list-none p-5">
                     <li>10 full users</li>
                     <li>2000 Email Previews</li>
                     <li>10 contacts per client</li>
                     <li>10 coffee cups</li>
                 </ul>
-                <button>BUY NOW</button>
+                <button class="bg-amber-500 px-5 py-2 text-white">BUY NOW</button>
             </div>
+            <div class="md:w-2/4"><img class="md:pr-20 pb-30" src="/styling-webpage-challenge/src/images/pricingtable.jpg"></div>
         </div>
     </div>
-    <div>
-        <div>
-            <h4>Building Company</h4>
+    <div class="buildingcompany flex flex-col justify-center">
+        <div class="text-white text-center p-10 px-20">
+            <h4 class="text-5xl font-bold">Building Company</h4>
             <p>From renovations and room additions to masonry and other handyman services</p> 
         </div>
-        <div>
-            <img src="" alt="DESIGN BUILD">
-            <img src="" alt="REMODELLING">
-            <img src="" alt="CITY SPACES">
-            <img src="" alt="CIVIL ENGINEERS">
+        <div class="flex flex-col md:flex-row justify-around gap-3 md:px-20">
+            <div class="bg-white text-center"><img class="rounded-full" src="/styling-webpage-challenge/src/images/buildin1.jpg" alt=""><h4 class=" p-5">DESIGN-BUILD</h4></div>
+            <div class="bg-white text-center"><img class="rounded-full" src="/styling-webpage-challenge/src/images/buildin2.jpg" alt=""><h4 class=" p-5">REMODELLING</h4></div>
+            <div class="bg-white text-center"><img class="rounded-full" src="/styling-webpage-challenge/src/images/buildin3.jpg" alt=""><h4 class=" p-5">CITY SPACES</h4></div>
+            <div class="bg-white text-center"><img class="rounded-full" src="/styling-webpage-challenge/src/images/buildin4.jpg" alt=""><h4 class=" p-5">CIVIL ENGINEERS</h4></div>
         </div>
-        <button>VIEW MORE</button>
+        <button class="py-2 p-5 border-2 border-solid border-white m-10 md:w-30 text-white font-bold">VIEW MORE</button>
     </div>
     <div>
         <div>
