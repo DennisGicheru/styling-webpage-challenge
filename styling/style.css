@@ -46,5 +46,9 @@ ul {
 
 .buildingcompany {
     background-image: url(/styling-webpage-challenge/src/images/buildingcompany-bg.jpg);
-    
+
+}
+
+body {
+    background-image: url(/styling-webpage-challenge/src/images/footer-background.jpg);
 }
