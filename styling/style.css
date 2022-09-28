@@ -25,6 +25,10 @@ ul {
     list-style-type: none;
 }
 
+.fa {
+    color: rgb(245 158 11 );
+}
+
 #list1 ul li:before {
     content: '✓';
     color: rgb(245 158 11 );
@@ -43,6 +47,13 @@ ul {
     height: 50px;
   }
 
+  .container img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 10px;
+  }
+
 
 .buildingcompany {
     background-image: url(/styling-webpage-challenge/src/images/buildingcompany-bg.jpg);
@@ -51,4 +62,8 @@ ul {
 
 body {
     background-image: url(/styling-webpage-challenge/src/images/footer-background.jpg);
+}
+
+p {
+    font-size: large;
 }
