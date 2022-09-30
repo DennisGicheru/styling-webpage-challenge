@@ -57,6 +57,7 @@ ul {
 
 .buildingcompany {
     background-image: url(/src/images/buildingcompany-bg.jpg);
+    background-repeat: no-repeat;
 
 }
 
