@@ -1,5 +1,5 @@
 .topmenu {
-    background-image: url(/styling-webpage-challenge/src/images/backgroundimagetop.jpg);
+    background-image: url(/src/images/backgroundimagetop.jpg);
     transform: scaleX(-1);
 }
 
@@ -38,7 +38,7 @@ ul {
   }
 
   .banner {
-    background-image: url(/styling-webpage-challenge/src/images/bannerimage.jpg);
+    background-image: url(/src/images/bannerimage.jpg);
     padding-top: 0;
   }
 
@@ -56,12 +56,12 @@ ul {
 
 
 .buildingcompany {
-    background-image: url(/styling-webpage-challenge/src/images/buildingcompany-bg.jpg);
+    background-image: url(/src/images/buildingcompany-bg.jpg);
 
 }
 
 body {
-    background-image: url(/styling-webpage-challenge/src/images/footer-background.jpg);
+    background-image: url(/src/images/footer-background.jpg);
 }
 
 p {
